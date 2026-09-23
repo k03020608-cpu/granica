@@ -1,0 +1,21 @@
+# Nazwa świata, na którym plugin zarządza granicą.
+world: world
+
+# Domyślny rozmiar i środek granicy (używane przez /granica reset).
+default-size: 2000
+default-center-x: 0
+default-center-z: 0
+
+# Obrażenia zadawane graczowi za sekundę za każdy blok poza granicą.
+damage-amount: 0.2
+
+# Ile sekund przed dotarciem do granicy ekran zaczyna czerwienieć.
+warning-time: 15
+
+# Z jakiej odległości (w blokach) od granicy zaczyna się ostrzeżenie.
+warning-distance: 5
+
+# Bieżący stan granicy - zapisywany automatycznie, nie edytuj ręcznie.
+current-size: 2000
+current-center-x: 0
+current-center-z: 0
