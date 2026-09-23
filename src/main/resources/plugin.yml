@@ -1,0 +1,22 @@
+name: Granica
+version: '1.0.0'
+main: pl.granica.GranicaPlugin
+api-version: '26.2'
+description: Zarządzanie granicą świata (world border)
+
+commands:
+  granica:
+    description: Zarządzanie granicą świata
+    usage: /granica <ustaw|srodek|zmniejsz|zatrzymaj|reset|info|obrazenia|ostrzezenieczas|ostrzezenieodleglosc>
+    permission: granica.uzyj
+
+permissions:
+  granica.admin:
+    description: Pozwala zmieniać granicę świata (wszystkie podkomendy poza info)
+    default: false
+  granica.info:
+    description: Pozwala sprawdzić /granica info
+    default: true
+  granica.uzyj:
+    description: Pozwala w ogóle wpisać komendę /granica (szczegółowe uprawnienia sprawdzane są dalej)
+    default: true
